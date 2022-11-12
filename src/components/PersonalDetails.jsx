@@ -2,11 +2,7 @@ const PersonalDetails = () => {
 	return (
 		<div className="bg-white rounded-xl p-5 flex gap-5 col-span-3">
 			<div className="">
-				<img
-					className="max-w-[250px] rounded-xl"
-					src="./src/assets/Images/portrait.jpg"
-					alt="Portrait"
-				/>
+				<img className="max-w-[250px] rounded-xl" src="./Images/portrait.jpg" alt="Portrait" />
 			</div>
 			<div>
 				<div className="flex justify-between">

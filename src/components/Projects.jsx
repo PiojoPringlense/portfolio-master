@@ -4,11 +4,7 @@ import { projectList, tags } from "../assets/projectList";
 const Project = ({ project }) => {
 	return (
 		<div className=" bg-white rounded-xl p-5">
-			<img
-				className="rounded-xl"
-				src={`src/assets/Images/${project.image}`}
-				alt={project.title}
-			/>
+			<img className="rounded-xl" src={`./Images/${project.image}`} alt={project.title} />
 			<div className="flex gap-4">
 				{project.tags.map((tag) => (
 					<span className="text-gray-500 text-sm my-4" key={`${project.image}${tag}`}>

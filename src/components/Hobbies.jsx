@@ -3,7 +3,7 @@ const Hobbie = ({ image, name, description }) => {
 		<div>
 			<img
 				className="rounded-xl aspect-video object-cover"
-				src={`src/assets/Images/${image}`}
+				src={`./Images/${image}`}
 				alt={name}
 			/>
 			<p className="mt-4 font-semibold">{name}</p>
