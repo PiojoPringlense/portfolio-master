@@ -4,7 +4,7 @@ const PersonalDetails = () => {
 			<div className="">
 				<img
 					className="max-w-[250px] rounded-xl"
-					src="src\assets\Images\portrait.jpg"
+					src=".\src\assets\Images\portrait.jpg"
 					alt="Portrait"
 				/>
 			</div>
