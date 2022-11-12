@@ -6,7 +6,7 @@ const Project = ({ project }) => {
 		<div className=" bg-white rounded-xl p-5">
 			<img
 				className="rounded-xl"
-				src={`src\\assets\\Images\\${project.image}`}
+				src={`src/assets/Images/${project.image}`}
 				alt={project.title}
 			/>
 			<div className="flex gap-4">

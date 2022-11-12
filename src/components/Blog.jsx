@@ -6,7 +6,7 @@ const Blog = () => {
 				<p className="font-semibold text-xl mt-8">How to organize your CSS</p>
 				<img
 					className="rounded-xl h-64 translate-x-8 aspect-video object-cover"
-					src="src\assets\Images\css.jpg"
+					src="src/assets/Images/css.jpg"
 					alt="Blog image"
 				/>
 			</div>
